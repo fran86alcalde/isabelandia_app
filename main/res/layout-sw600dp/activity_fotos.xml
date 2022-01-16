@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fotos">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="volver "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <ScrollView
+
+        android:id="@+id/linearLa"
+        android:layout_width="341dp"
+        android:layout_height="677dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+       
+
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                app:srcCompat="@drawable/ciu2" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="78dp"
+                android:layout_height="91dp"
+                app:srcCompat="@drawable/ciu3" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="101dp"
+                android:layout_height="77dp"
+                app:srcCompat="@drawable/ciu4" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="101dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/ciu5" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ciu6" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="159dp"
+                android:layout_height="126dp"
+                app:srcCompat="@drawable/ciu1" />
+
+
+      
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
